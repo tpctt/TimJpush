@@ -14,7 +14,9 @@ Pod::Spec.new do |s|
   s.library		= "z.1.1.3","stdc++","sqlite3"
   s.source_files = 'TimJpush'
   #s.resources = 'SIDADView/*.{bundle}'
-  s.dependency 'UserNotifications.framework'
+  #s.dependency 'UserNotifications'
+  s.ios.frameworks = 'UserNotifications'
+
 
 #  s.subspec 'YMCitySelect' do |sp|
 #   sp.source_files = 'YMCitySelect/*.{h,m,mm}'
