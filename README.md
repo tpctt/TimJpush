@@ -1,4 +1,4 @@
-<h1>YMCitySelect</h1>
+<h1>TimJpush</h1>
 <ul>
 <li>简化推送的代码逻辑,这个使用的 jpush 作为拓展,只需要设置3方 sdk 的 key 和 一个 收到推送的 block 即可</li>
 <li>借鉴于 jiaAppDelegate 的,[jiaAppDelegate]</li>
