@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22852CD01DC75E2100FC7704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CCF1DC75E2100FC7704 /* main.m */; };
+		22852CD31DC75E2100FC7704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CD21DC75E2100FC7704 /* AppDelegate.m */; };
+		22852CD61DC75E2100FC7704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CD51DC75E2100FC7704 /* ViewController.m */; };
+		22852CD91DC75E2100FC7704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22852CD71DC75E2100FC7704 /* Main.storyboard */; };
+		22852CDB1DC75E2100FC7704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22852CDA1DC75E2100FC7704 /* Assets.xcassets */; };
+		22852CDE1DC75E2100FC7704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22852CDC1DC75E2100FC7704 /* LaunchScreen.storyboard */; };
+		22852CF61DC7604F00FC7704 /* AppDelegate+myJpush.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF11DC7604F00FC7704 /* AppDelegate+myJpush.m */; };
+		22852CF71DC7604F00FC7704 /* TimJpushConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF41DC7604F00FC7704 /* TimJpushConfigManager.m */; };
+		22852CF81DC7604F00FC7704 /* XAspect-JpushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF51DC7604F00FC7704 /* XAspect-JpushAppDelegate.m */; };
+		22852CFB1DC7606B00FC7704 /* AppDelegate+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CFA1DC7606B00FC7704 /* AppDelegate+Tools.m */; };
+		22852CFD1DC7612D00FC7704 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22852CFC1DC7612D00FC7704 /* UserNotifications.framework */; };
+		F6F2C888D9C597AB88F29B09 /* libPods-TimJpushDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D24BF6AED3EDF8F3C597 /* libPods-TimJpushDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22852CCB1DC75E2100FC7704 /* TimJpushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimJpushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22852CCF1DC75E2100FC7704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22852CD11DC75E2100FC7704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22852CD21DC75E2100FC7704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22852CD41DC75E2100FC7704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22852CD51DC75E2100FC7704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22852CD81DC75E2100FC7704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22852CDA1DC75E2100FC7704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22852CDD1DC75E2100FC7704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22852CDF1DC75E2100FC7704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22852CF01DC7604F00FC7704 /* AppDelegate+myJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+myJpush.h"; sourceTree = "<group>"; };
+		22852CF11DC7604F00FC7704 /* AppDelegate+myJpush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+myJpush.m"; sourceTree = "<group>"; };
+		22852CF21DC7604F00FC7704 /* TimJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimJpush.h; sourceTree = "<group>"; };
+		22852CF31DC7604F00FC7704 /* TimJpushConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimJpushConfigManager.h; sourceTree = "<group>"; };
+		22852CF41DC7604F00FC7704 /* TimJpushConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimJpushConfigManager.m; sourceTree = "<group>"; };
+		22852CF51DC7604F00FC7704 /* XAspect-JpushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-JpushAppDelegate.m"; sourceTree = "<group>"; };
+		22852CF91DC7606B00FC7704 /* AppDelegate+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Tools.h"; sourceTree = "<group>"; };
+		22852CFA1DC7606B00FC7704 /* AppDelegate+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Tools.m"; sourceTree = "<group>"; };
+		22852CFC1DC7612D00FC7704 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		58E60B93CAFB9D6BD671523A /* Pods-TimJpushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimJpushDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimJpushDemo/Pods-TimJpushDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BABCFD9EA993F84E95D8D449 /* Pods-TimJpushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimJpushDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimJpushDemo/Pods-TimJpushDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D793D24BF6AED3EDF8F3C597 /* libPods-TimJpushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimJpushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22852CC81DC75E2100FC7704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22852CFD1DC7612D00FC7704 /* UserNotifications.framework in Frameworks */,
+				F6F2C888D9C597AB88F29B09 /* libPods-TimJpushDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22852CC21DC75E2100FC7704 = {
+			isa = PBXGroup;
+			children = (
+				22852CEF1DC7604F00FC7704 /* TimJpush */,
+				22852CCD1DC75E2100FC7704 /* TimJpushDemo */,
+				22852CCC1DC75E2100FC7704 /* Products */,
+				5E98F0D3494032A0A36055CA /* Pods */,
+				ABD63BFCFF5ABBF034B73419 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22852CCC1DC75E2100FC7704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22852CCB1DC75E2100FC7704 /* TimJpushDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22852CCD1DC75E2100FC7704 /* TimJpushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22852CD11DC75E2100FC7704 /* AppDelegate.h */,
+				22852CD21DC75E2100FC7704 /* AppDelegate.m */,
+				22852CF91DC7606B00FC7704 /* AppDelegate+Tools.h */,
+				22852CFA1DC7606B00FC7704 /* AppDelegate+Tools.m */,
+				22852CD41DC75E2100FC7704 /* ViewController.h */,
+				22852CD51DC75E2100FC7704 /* ViewController.m */,
+				22852CD71DC75E2100FC7704 /* Main.storyboard */,
+				22852CDA1DC75E2100FC7704 /* Assets.xcassets */,
+				22852CDC1DC75E2100FC7704 /* LaunchScreen.storyboard */,
+				22852CDF1DC75E2100FC7704 /* Info.plist */,
+				22852CCE1DC75E2100FC7704 /* Supporting Files */,
+			);
+			path = TimJpushDemo;
+			sourceTree = "<group>";
+		};
+		22852CCE1DC75E2100FC7704 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22852CCF1DC75E2100FC7704 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22852CEF1DC7604F00FC7704 /* TimJpush */ = {
+			isa = PBXGroup;
+			children = (
+				22852CF01DC7604F00FC7704 /* AppDelegate+myJpush.h */,
+				22852CF11DC7604F00FC7704 /* AppDelegate+myJpush.m */,
+				22852CF21DC7604F00FC7704 /* TimJpush.h */,
+				22852CF31DC7604F00FC7704 /* TimJpushConfigManager.h */,
+				22852CF41DC7604F00FC7704 /* TimJpushConfigManager.m */,
+				22852CF51DC7604F00FC7704 /* XAspect-JpushAppDelegate.m */,
+			);
+			name = TimJpush;
+			path = ../TimJpush;
+			sourceTree = "<group>";
+		};
+		5E98F0D3494032A0A36055CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E60B93CAFB9D6BD671523A /* Pods-TimJpushDemo.debug.xcconfig */,
+				BABCFD9EA993F84E95D8D449 /* Pods-TimJpushDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABD63BFCFF5ABBF034B73419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22852CFC1DC7612D00FC7704 /* UserNotifications.framework */,
+				D793D24BF6AED3EDF8F3C597 /* libPods-TimJpushDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22852CCA1DC75E2100FC7704 /* TimJpushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22852CE21DC75E2100FC7704 /* Build configuration list for PBXNativeTarget "TimJpushDemo" */;
+			buildPhases = (
+				393B7A1ED5561FEAA113C3CB /* [CP] Check Pods Manifest.lock */,
+				22852CC71DC75E2100FC7704 /* Sources */,
+				22852CC81DC75E2100FC7704 /* Frameworks */,
+				22852CC91DC75E2100FC7704 /* Resources */,
+				F07E9AF0DCA112F8253A2906 /* [CP] Embed Pods Frameworks */,
+				016F75BA7B7332395C75FECF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimJpushDemo;
+			productName = TimJpushDemo;
+			productReference = 22852CCB1DC75E2100FC7704 /* TimJpushDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22852CC31DC75E2100FC7704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tim;
+				TargetAttributes = {
+					22852CCA1DC75E2100FC7704 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TGZ32BA6KS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22852CC61DC75E2100FC7704 /* Build configuration list for PBXProject "TimJpushDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22852CC21DC75E2100FC7704;
+			productRefGroup = 22852CCC1DC75E2100FC7704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22852CCA1DC75E2100FC7704 /* TimJpushDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22852CC91DC75E2100FC7704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22852CDE1DC75E2100FC7704 /* LaunchScreen.storyboard in Resources */,
+				22852CDB1DC75E2100FC7704 /* Assets.xcassets in Resources */,
+				22852CD91DC75E2100FC7704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016F75BA7B7332395C75FECF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimJpushDemo/Pods-TimJpushDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393B7A1ED5561FEAA113C3CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F07E9AF0DCA112F8253A2906 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimJpushDemo/Pods-TimJpushDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22852CC71DC75E2100FC7704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22852CF81DC7604F00FC7704 /* XAspect-JpushAppDelegate.m in Sources */,
+				22852CD61DC75E2100FC7704 /* ViewController.m in Sources */,
+				22852CD31DC75E2100FC7704 /* AppDelegate.m in Sources */,
+				22852CF71DC7604F00FC7704 /* TimJpushConfigManager.m in Sources */,
+				22852CD01DC75E2100FC7704 /* main.m in Sources */,
+				22852CF61DC7604F00FC7704 /* AppDelegate+myJpush.m in Sources */,
+				22852CFB1DC7606B00FC7704 /* AppDelegate+Tools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22852CD71DC75E2100FC7704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22852CD81DC75E2100FC7704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22852CDC1DC75E2100FC7704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22852CDD1DC75E2100FC7704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22852CE01DC75E2100FC7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22852CE11DC75E2100FC7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22852CE31DC75E2100FC7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E60B93CAFB9D6BD671523A /* Pods-TimJpushDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGZ32BA6KS;
+				INFOPLIST_FILE = TimJpushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan97.TimJpushDemo.TimJpushDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22852CE41DC75E2100FC7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABCFD9EA993F84E95D8D449 /* Pods-TimJpushDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGZ32BA6KS;
+				INFOPLIST_FILE = TimJpushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan97.TimJpushDemo.TimJpushDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22852CC61DC75E2100FC7704 /* Build configuration list for PBXProject "TimJpushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22852CE01DC75E2100FC7704 /* Debug */,
+				22852CE11DC75E2100FC7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22852CE21DC75E2100FC7704 /* Build configuration list for PBXNativeTarget "TimJpushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22852CE31DC75E2100FC7704 /* Debug */,
+				22852CE41DC75E2100FC7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22852CC31DC75E2100FC7704 /* Project object */;
+}

@@ -1,0 +1,13 @@
+source 'https://github.com/tpctt/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, "8.0"
+
+target:TimJpushDemo  do
+
+pod 'XAspect'
+pod 'JPush-iOS-SDK'
+
+
+end
+

@@ -1,0 +1,20 @@
+PODS:
+  - JPush-iOS-SDK (2.1.9)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - JPush-iOS-SDK
+  - XAspect
+
+SPEC CHECKSUMS:
+  JPush-iOS-SDK: c74e4f8d066dacf27c3d37257ee20157e44c316c
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+PODFILE CHECKSUM: d48da0fd112ad1270a841bfce653cf0bbe3af02f
+
+COCOAPODS: 1.0.1
