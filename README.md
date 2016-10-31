@@ -1,7 +1,8 @@
 <h1>YMCitySelect</h1>
 <ul>
 <li>简化推送的代码逻辑,这个使用的 jpush 作为拓展,只需要设置3方 sdk 的 key 和 一个 收到推送的 block 即可</li>
-<li>借鉴于 jiaAppDelegate 的,</li>
+<li>借鉴于 jiaAppDelegate 的,[jiaAppDelegate]</li>
+<li>借推送测试工具 <https://github.com/KnuffApp/Knuff></li>
 
 ````objectivec
 +(void)load
@@ -31,3 +32,4 @@
 ````
 
 <h4>亲爱的各位同行，如果你已经浏览到这，请帮我点下右上角星星Star，非常感谢</h4>
+  [jiaAppDelegate]: https://github.com/wujunyang/jiaGTSDK
