@@ -120,17 +120,39 @@ AspectPatch(-, void,application:(UIApplication *)application didReceiveRemoteNot
         static NSString *pre_j_msgid ;
 
         ///过滤潜在的推送2次的可能性
+        
         NSString *_j_msgid = [userInfo objectForKey:@"_j_msgid"];
-        
-        if( _j_msgid && NO != [pre_j_msgid isEqualToString:_j_msgid]){
-            
-            [self receiveRemoteMessageHandleing:userInfo];
-            pre_j_msgid = _j_msgid;
-            
-        }else{
-        
+        if([_j_msgid isKindOfClass:[NSNumber class]]){
+            ///过滤 number 类型
+            _j_msgid = [(NSNumber *)_j_msgid stringValue];
         }
         
+        NSLog(@"_j_msgid 为 %@  --- pre_j_msgid = %@ ", _j_msgid,pre_j_msgid);
+
+        if( _j_msgid == nil ){
+            
+            NSLog(@"_j_msgid 为 nil");
+            
+            [self receiveRemoteMessageHandleing:userInfo];
+            
+        }else{
+            NSLog(@"_j_msgid 不为 nil");
+            BOOL flag = [pre_j_msgid isEqualToString:_j_msgid];
+            
+            if( NO == flag ){
+                NSLog(@"_j_msgid 和前一个 msgid 不一样");
+                
+                [self receiveRemoteMessageHandleing:userInfo];
+                
+            }else{
+                NSLog(@"_j_msgid 和前一个 msgid == 一样");
+                
+            }
+        }
+        
+        ////保存当前 msgid 为前一个 msgid
+        pre_j_msgid = _j_msgid;
+
     }
     // 处理APN
     //NSLog(@"\n>>>[Receive RemoteNotification - Background Fetch]:%@\n\n", userInfo);
