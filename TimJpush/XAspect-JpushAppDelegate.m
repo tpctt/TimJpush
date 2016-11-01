@@ -108,7 +108,6 @@ AspectPatch(-, void, application:(UIApplication *)application didRegisterUserNot
     return XAMessageForward(application:application didRegisterUserNotificationSettings:notificationSettings);
 }
 
-
 ///ios9 app 启动时候的推送动作  , 后台收到通知打开的动作
 AspectPatch(-, void,application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler)
 {
@@ -116,10 +115,21 @@ AspectPatch(-, void,application:(UIApplication *)application didReceiveRemoteNot
     [self handlePushMessage:userInfo notification:nil];
     [JPUSHService handleRemoteNotification:userInfo];
     
-    
     //除了个推还要处理走苹果的信息放在body里面
     if (userInfo) {
-        [self receiveRemoteMessageHandleing:userInfo];
+        static NSString *pre_j_msgid ;
+
+        ///过滤潜在的推送2次的可能性
+        NSString *_j_msgid = [userInfo objectForKey:@"_j_msgid"];
+        
+        if( _j_msgid && NO != [pre_j_msgid isEqualToString:_j_msgid]){
+            
+            [self receiveRemoteMessageHandleing:userInfo];
+            pre_j_msgid = _j_msgid;
+            
+        }else{
+        
+        }
         
     }
     // 处理APN
