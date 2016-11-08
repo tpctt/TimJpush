@@ -9,7 +9,6 @@
 #ifndef TimJpush_h
 #define TimJpush_h
 
-///需要支持 广告 id
 #import "TimJpushConfigManager.h"
 
 #endif /* TimJpush_h */

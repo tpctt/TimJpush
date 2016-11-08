@@ -15,9 +15,8 @@ typedef void(^DealPushDataBlock)(NSDictionary *userInfo, UIApplicationState stat
 
 
 @interface  AppDelegate (myJpush)
-///< ,  UNUserNotificationCenterDelegate  >
+//<JPUSHRegisterDelegate ,  UNUserNotificationCenterDelegate  >
 
-///收到推送的数据之后的处理,用的 block 实现
 @property (copy,nonatomic) DealPushDataBlock pushBlock;
 //other
 @property (strong, nonatomic)  NSString *deviceToken;

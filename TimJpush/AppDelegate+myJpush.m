@@ -9,8 +9,6 @@
 #import "AppDelegate+myJpush.h"
 #import "TimJpushConfigManager.h"
 
-#import <objc/runtime.h>
-
 @implementation AppDelegate (myJpush)
 
 
@@ -112,8 +110,13 @@
         
     }
     
-    
-    [[UNUserNotificationCenter currentNotificationCenter] setNotificationCategories:[NSSet setWithObjects: category_openUrl  , nil]];
+    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center requestAuthorizationWithOptions:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) completionHandler:^(BOOL granted, NSError * _Nullable error) {
+        if (!error) {
+            NSLog(@"request authorization succeeded!");
+        }
+    }];
+    [center setNotificationCategories:[NSSet setWithObjects: category_openUrl  , nil]];
     
     
     [[UIApplication sharedApplication] registerForRemoteNotifications];
