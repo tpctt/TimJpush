@@ -1,40 +1,22 @@
 //
 //  AppDelegate.m
-//  TimJpushDemo
+//  TimCore
 //
-//  Created by tim on 16/10/31.
+//  Created by tim on 16/11/9.
 //  Copyright © 2016年 tim. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "TimCoreAppDelegate+myJpush.h"
-#import "AppDelegate+Tools.h"
+#import "TimCoreAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TimCoreAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TimCoreAppDelegate
 
--(void)dealloc
-{
-///SCHEM 里面设置 OS_ACTIVITY_MODE  disable ,避免 控制台输出太多无用的数据
-    
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    __weak AppDelegate *weak_self =self;
-    ///WEAK_self
-    self.pushBlock = ^(NSDictionary *userInfo, UIApplicationState state){
-        ///do it by yourself
-        //STRONG_SELF
-        [weak_self dealRemotePushDict:userInfo applicationState:state];
-        
-    };
-    
-    
     return YES;
 }
 

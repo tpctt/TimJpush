@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimCoreAppDelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : TimCoreAppDelegate
+//UIResponder <UIApplicationDelegate>
+
+//@property (strong, nonatomic) UIWindow *window;
 
 
 @end

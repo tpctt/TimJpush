@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TimJpushConfigManager.h"
-#import "AppDelegate+myJpush.h"
+#import "TimCoreAppDelegate+myJpush.h"
 
 #import <XAspect.h>
 #import <JPUSHService.h>

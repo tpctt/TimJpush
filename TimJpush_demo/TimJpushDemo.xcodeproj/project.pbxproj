@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222BD8711DD2C513002C8F24 /* TimCoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BD8701DD2C513002C8F24 /* TimCoreAppDelegate.m */; };
 		22852CD01DC75E2100FC7704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CCF1DC75E2100FC7704 /* main.m */; };
 		22852CD31DC75E2100FC7704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CD21DC75E2100FC7704 /* AppDelegate.m */; };
 		22852CD61DC75E2100FC7704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CD51DC75E2100FC7704 /* ViewController.m */; };
 		22852CD91DC75E2100FC7704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22852CD71DC75E2100FC7704 /* Main.storyboard */; };
 		22852CDB1DC75E2100FC7704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22852CDA1DC75E2100FC7704 /* Assets.xcassets */; };
 		22852CDE1DC75E2100FC7704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22852CDC1DC75E2100FC7704 /* LaunchScreen.storyboard */; };
-		22852CF61DC7604F00FC7704 /* AppDelegate+myJpush.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF11DC7604F00FC7704 /* AppDelegate+myJpush.m */; };
+		22852CF61DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF11DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.m */; };
 		22852CF71DC7604F00FC7704 /* TimJpushConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF41DC7604F00FC7704 /* TimJpushConfigManager.m */; };
 		22852CF81DC7604F00FC7704 /* XAspect-JpushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CF51DC7604F00FC7704 /* XAspect-JpushAppDelegate.m */; };
 		22852CFB1DC7606B00FC7704 /* AppDelegate+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CFA1DC7606B00FC7704 /* AppDelegate+Tools.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222BD86F1DD2C513002C8F24 /* TimCoreAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimCoreAppDelegate.h; sourceTree = "<group>"; };
+		222BD8701DD2C513002C8F24 /* TimCoreAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimCoreAppDelegate.m; sourceTree = "<group>"; };
 		22852CCB1DC75E2100FC7704 /* TimJpushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimJpushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22852CCF1DC75E2100FC7704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22852CD11DC75E2100FC7704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,8 +35,8 @@
 		22852CDA1DC75E2100FC7704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22852CDD1DC75E2100FC7704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22852CDF1DC75E2100FC7704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22852CF01DC7604F00FC7704 /* AppDelegate+myJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+myJpush.h"; sourceTree = "<group>"; };
-		22852CF11DC7604F00FC7704 /* AppDelegate+myJpush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+myJpush.m"; sourceTree = "<group>"; };
+		22852CF01DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimCoreAppDelegate+myJpush.h"; sourceTree = "<group>"; };
+		22852CF11DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TimCoreAppDelegate+myJpush.m"; sourceTree = "<group>"; };
 		22852CF21DC7604F00FC7704 /* TimJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimJpush.h; sourceTree = "<group>"; };
 		22852CF31DC7604F00FC7704 /* TimJpushConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimJpushConfigManager.h; sourceTree = "<group>"; };
 		22852CF41DC7604F00FC7704 /* TimJpushConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimJpushConfigManager.m; sourceTree = "<group>"; };
@@ -59,9 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222BD86E1DD2C513002C8F24 /* TimCore */ = {
+			isa = PBXGroup;
+			children = (
+				222BD86F1DD2C513002C8F24 /* TimCoreAppDelegate.h */,
+				222BD8701DD2C513002C8F24 /* TimCoreAppDelegate.m */,
+			);
+			path = TimCore;
+			sourceTree = "<group>";
+		};
 		22852CC21DC75E2100FC7704 = {
 			isa = PBXGroup;
 			children = (
+				222BD86E1DD2C513002C8F24 /* TimCore */,
 				22852CEF1DC7604F00FC7704 /* TimJpush */,
 				22852CCD1DC75E2100FC7704 /* TimJpushDemo */,
 				22852CCC1DC75E2100FC7704 /* Products */,
@@ -107,8 +120,8 @@
 		22852CEF1DC7604F00FC7704 /* TimJpush */ = {
 			isa = PBXGroup;
 			children = (
-				22852CF01DC7604F00FC7704 /* AppDelegate+myJpush.h */,
-				22852CF11DC7604F00FC7704 /* AppDelegate+myJpush.m */,
+				22852CF01DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.h */,
+				22852CF11DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.m */,
 				22852CF21DC7604F00FC7704 /* TimJpush.h */,
 				22852CF31DC7604F00FC7704 /* TimJpushConfigManager.h */,
 				22852CF41DC7604F00FC7704 /* TimJpushConfigManager.m */,
@@ -264,7 +277,8 @@
 				22852CD31DC75E2100FC7704 /* AppDelegate.m in Sources */,
 				22852CF71DC7604F00FC7704 /* TimJpushConfigManager.m in Sources */,
 				22852CD01DC75E2100FC7704 /* main.m in Sources */,
-				22852CF61DC7604F00FC7704 /* AppDelegate+myJpush.m in Sources */,
+				22852CF61DC7604F00FC7704 /* TimCoreAppDelegate+myJpush.m in Sources */,
+				222BD8711DD2C513002C8F24 /* TimCoreAppDelegate.m in Sources */,
 				22852CFB1DC7606B00FC7704 /* AppDelegate+Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,8 +14,8 @@
 typedef void(^DealPushDataBlock)(NSDictionary *userInfo, UIApplicationState state);
 
 
-@interface  AppDelegate (myJpush)
-//<JPUSHRegisterDelegate ,  UNUserNotificationCenterDelegate  >
+@interface  TimCoreAppDelegate (myJpush)
+///< ,  UNUserNotificationCenterDelegate  >
 
 @property (copy,nonatomic) DealPushDataBlock pushBlock;
 //other

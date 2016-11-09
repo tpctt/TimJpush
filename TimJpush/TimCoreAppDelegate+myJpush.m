@@ -6,10 +6,11 @@
 //
 //
 
-#import "AppDelegate+myJpush.h"
+#import "TimCoreAppDelegate+myJpush.h"
 #import "TimJpushConfigManager.h"
+#import <objc/runtime.h>
 
-@implementation AppDelegate (myJpush)
+@implementation TimCoreAppDelegate (myJpush)
 
 
 
