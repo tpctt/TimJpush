@@ -17,14 +17,14 @@
 #import <UserNotifications/UserNotifications.h>
 #define AtAspect JpushAppDelegate
 
-#define AtAspectOfClass AppDelegate
+#define AtAspectOfClass TimCoreAppDelegate
 
-@interface  AppDelegate ()<JPUSHRegisterDelegate , UNUserNotificationCenterDelegate>
+@interface  TimCoreAppDelegate ()<JPUSHRegisterDelegate , UNUserNotificationCenterDelegate>
 
 @end
 
 
-@classPatchField(AppDelegate)
+@classPatchField(TimCoreAppDelegate)
 
 @synthesizeNucleusPatch(Default, -, BOOL, application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions);
 @synthesizeNucleusPatch(Default, -, void, application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken);

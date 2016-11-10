@@ -6,7 +6,7 @@
 //
 //
 
-#import "AppDelegate.h"
+#import "TimCoreAppDelegate.h"
 
 #import <JPUSHService.h>
 #import <UserNotifications/UserNotifications.h>

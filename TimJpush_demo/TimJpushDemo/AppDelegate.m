@@ -24,6 +24,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
     
     __weak AppDelegate *weak_self =self;
     ///WEAK_self
