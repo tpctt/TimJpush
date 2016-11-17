@@ -8,25 +8,31 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
+		</dict>
+		<key>TimCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>XAspect.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C2E2B9748A182E94325A7A5FE030AA94</key>
+		<key>218B04482CABAEC2E1CA85A1C7EF4802</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC07E602F1B21F4561E7CC67D9ECC813</key>
+		<key>B920DDF0AD6E33B840FED0B997128245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE43EF3D09793EB42A5BD0715DAF90A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

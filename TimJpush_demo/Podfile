@@ -5,8 +5,8 @@ platform :ios, "8.0"
 
 target:TimJpushDemo  do
 
-pod 'XAspect'
-pod 'JPush-iOS-SDK'
+#pod 'TimCore/TimCore'
+pod 'TimCore/TimJpush'
 
 
 end

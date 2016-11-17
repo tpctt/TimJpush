@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		222BD8711DD2C513002C8F24 /* TimCoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BD8701DD2C513002C8F24 /* TimCoreAppDelegate.m */; };
-		222BDA1B1DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BDA161DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.m */; };
-		222BDA1C1DD460E4002C8F24 /* TimJpushConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BDA191DD460E4002C8F24 /* TimJpushConfigManager.m */; };
-		222BDA1D1DD460E4002C8F24 /* XAspect-JpushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222BDA1A1DD460E4002C8F24 /* XAspect-JpushAppDelegate.m */; };
 		22852CD01DC75E2100FC7704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CCF1DC75E2100FC7704 /* main.m */; };
 		22852CD31DC75E2100FC7704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CD21DC75E2100FC7704 /* AppDelegate.m */; };
 		22852CD61DC75E2100FC7704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22852CD51DC75E2100FC7704 /* ViewController.m */; };
@@ -23,14 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		222BD86F1DD2C513002C8F24 /* TimCoreAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimCoreAppDelegate.h; sourceTree = "<group>"; };
-		222BD8701DD2C513002C8F24 /* TimCoreAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimCoreAppDelegate.m; sourceTree = "<group>"; };
-		222BDA151DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimCoreAppDelegate+myJpush.h"; sourceTree = "<group>"; };
-		222BDA161DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TimCoreAppDelegate+myJpush.m"; sourceTree = "<group>"; };
-		222BDA171DD460E4002C8F24 /* TimJpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimJpush.h; sourceTree = "<group>"; };
-		222BDA181DD460E4002C8F24 /* TimJpushConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimJpushConfigManager.h; sourceTree = "<group>"; };
-		222BDA191DD460E4002C8F24 /* TimJpushConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimJpushConfigManager.m; sourceTree = "<group>"; };
-		222BDA1A1DD460E4002C8F24 /* XAspect-JpushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-JpushAppDelegate.m"; sourceTree = "<group>"; };
 		222BDA1E1DD4625E002C8F24 /* TimJpushDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimJpushDemo.entitlements; sourceTree = "<group>"; };
 		22852CCB1DC75E2100FC7704 /* TimJpushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimJpushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22852CCF1DC75E2100FC7704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,20 +51,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		222BD86E1DD2C513002C8F24 /* TimCore */ = {
-			isa = PBXGroup;
-			children = (
-				222BD86F1DD2C513002C8F24 /* TimCoreAppDelegate.h */,
-				222BD8701DD2C513002C8F24 /* TimCoreAppDelegate.m */,
-			);
-			path = TimCore;
-			sourceTree = "<group>";
-		};
 		22852CC21DC75E2100FC7704 = {
 			isa = PBXGroup;
 			children = (
-				222BD86E1DD2C513002C8F24 /* TimCore */,
-				22852CEF1DC7604F00FC7704 /* TimJpush */,
 				22852CCD1DC75E2100FC7704 /* TimJpushDemo */,
 				22852CCC1DC75E2100FC7704 /* Products */,
 				5E98F0D3494032A0A36055CA /* Pods */,
@@ -117,20 +94,6 @@
 				22852CCF1DC75E2100FC7704 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		22852CEF1DC7604F00FC7704 /* TimJpush */ = {
-			isa = PBXGroup;
-			children = (
-				222BDA151DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.h */,
-				222BDA161DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.m */,
-				222BDA171DD460E4002C8F24 /* TimJpush.h */,
-				222BDA181DD460E4002C8F24 /* TimJpushConfigManager.h */,
-				222BDA191DD460E4002C8F24 /* TimJpushConfigManager.m */,
-				222BDA1A1DD460E4002C8F24 /* XAspect-JpushAppDelegate.m */,
-			);
-			name = TimJpush;
-			path = ../TimJpush;
 			sourceTree = "<group>";
 		};
 		5E98F0D3494032A0A36055CA /* Pods */ = {
@@ -257,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F07E9AF0DCA112F8253A2906 /* [CP] Embed Pods Frameworks */ = {
@@ -282,14 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222BDA1D1DD460E4002C8F24 /* XAspect-JpushAppDelegate.m in Sources */,
-				222BDA1C1DD460E4002C8F24 /* TimJpushConfigManager.m in Sources */,
 				22852CD61DC75E2100FC7704 /* ViewController.m in Sources */,
 				22852CD31DC75E2100FC7704 /* AppDelegate.m in Sources */,
 				22852CD01DC75E2100FC7704 /* main.m in Sources */,
-				222BD8711DD2C513002C8F24 /* TimCoreAppDelegate.m in Sources */,
 				22852CFB1DC7606B00FC7704 /* AppDelegate+Tools.m in Sources */,
-				222BDA1B1DD460E4002C8F24 /* TimCoreAppDelegate+myJpush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
