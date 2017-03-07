@@ -5,8 +5,10 @@ platform :ios, "8.0"
 
 target:TimJpushDemo  do
 
-#pod 'TimCore/TimCore'
-pod 'TimCore/TimJpush'
+pod 'XAspect'
+pod 'JPush','~>3.0.2'
+
+pod 'TimCore/TimCore'
 
 
 end

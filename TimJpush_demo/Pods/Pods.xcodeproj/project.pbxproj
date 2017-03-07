@@ -7,45 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BB708957856AF5860DD0CADAB69699 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 3135360AC881B4AC8109D40F1E140EBE /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08C96FC1DAC64F2CFE4DC2BC33D3C417 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2BBB9D395F82256FE7FB721DB2A343 /* JavaScriptCore.framework */; };
-		12CE2C7C0BF70D1BF8AF9ADC209DF29F /* TimJpush.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F35AA99940A9CE3BB5C3F62BDBB3E8E /* TimJpush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EA0CE2F7A60ECCC99A694273016AE2E /* TimCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A7A6218FA78CF0D4F60E3833C7638 /* TimCore-dummy.m */; };
+		144FEC5A37D683B8E17D1ED7B841E70A /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A32767642F4A206516E66BE84DC1F742 /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F625FB21321A41B8BE6D004FE8019B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968FA9FA0C8EA350A2B78B859B5CD27 /* Foundation.framework */; };
+		21D82C118372BB77835142B621154196 /* TimCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6448FE20C296FC2BBFA598C3FC8D6181 /* TimCore-dummy.m */; };
+		22148B21ED90C93CCFF8C7599C327382 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF34AD3BBC5F781D57D00C5E21FEF5F /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33D59310F272C7352226090EBA936079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09AC0EFA95C8EBF3A270F6B5A6262AF /* UIKit.framework */; };
-		369AE245E821D8792290DE6768304DF4 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = EE23AD719C213DFB0C02395913A7BBA8 /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC45DC299989FCDED60747626B28884 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ACC48F422FFA23BA49788F84AA8E1 /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47ADCB244FB6C48E0E198E3D5B7E3051 /* TimJpushConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 263F5BF43AE01290F38026651283CE71 /* TimJpushConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420A8DC4D6277179F9B7A5AD55836082 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4917339BC56D3CFDE34C943E40952D /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9B31D4086D1D30FC29B8FA0B080182 /* Pods-TimJpushDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C03E0B09AE4B48D4548DA44FDC7909 /* Pods-TimJpushDemo-dummy.m */; };
-		597F633EBDFC736B87C9771E7C74FBF5 /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4655C755E4CEF30A88F091DD54B844 /* XAspect-dummy.m */; };
-		5B4717E22AAD91D5BC04030A320E5CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968FA9FA0C8EA350A2B78B859B5CD27 /* Foundation.framework */; };
+		4FC46927D8F1E8A36D15378BC5A0BEE3 /* TimCoreAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF5D4516F49D3B486F9F7C69CD466CB /* TimCoreAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5035A361FF1D62AF1822CC9EE400975C /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B835E29568694B9695BCB683465292F4 /* XAspect-dummy.m */; };
 		5EC1670A98BD9FCFDA49D178FEB55280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968FA9FA0C8EA350A2B78B859B5CD27 /* Foundation.framework */; };
-		66E781B9FA288D5FDDBB2A9392FA2577 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 169CC212D8F2C940B56626E2D463F883 /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6C8AA1A7C33AFF99FFBB0B97A0509973 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94375DC4FCCBDFB40054654237C042BD /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6FFF1F2779410B32C1F618053C17F2CC /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF9E8B760CC8AF8DBBF91E7568C587E /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71AD54363BECA813BBB32137A9DD2FF1 /* TimCoreAppDelegate+myJpush.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1B9CD79E4D3AD095C0847C49AD9ADA /* TimCoreAppDelegate+myJpush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74EE84F484B3E1506E635A39BEFE8215 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3F85590765AE48283B807EC104CBD5 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75E9A6CF321524779F97230731306E50 /* TimCoreAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF137EA4837D5A37846F99939EE44F1C /* TimCoreAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79304D56D8B4452A9365651C4CFA2806 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = F817C06F00E0FFCD0610592E6CD93C02 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85B3C9BA425DFE0BF9C242879688A6E5 /* TimCoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9366C28886D62B9AB453F77113382BC2 /* TimCoreAppDelegate.m */; };
-		9A993DF7683FF151075CA5A5891AA05E /* TimCoreAppDelegate+myJpush.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA7334B6D7E3DA80FCC7EDCF14132B /* TimCoreAppDelegate+myJpush.m */; };
+		650618605BA53F57535B899ED1F3E3B5 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C123C3A16F02E75DE0B52B1B4C1BE8B3 /* XAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5AA3494A8D0F48057A5CF346783872 /* TimCoreAppDelegate+CSSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E638DBF6A8DCF0DA3DA38FEA5CD3F8 /* TimCoreAppDelegate+CSSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF8C0F191AEE721F56D75BBEC247731 /* TimCoreAppDelegate+CSSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF5F956DFDBB211EDDC9C5396C1C69 /* TimCoreAppDelegate+CSSearch.m */; };
+		9D35495ED7802BA58B024D0286AF55AD /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E21F71AD759F310A62EFD920C6CA31 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EB16DB1519D57B354D122855E81A42 /* TimCoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CF9170359DAB613EB2E8D56331679F /* TimCoreAppDelegate.m */; };
+		A9A6A50CAA5897876F06FD4395CBFA84 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 770E3CFB1C5A309250822D46ECA5FF0C /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B2636079DF983A86ABA04BC51D05CB9C /* TimSearchItemForObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E361AB34A7A8F8FF856C20A84C5B57ED /* TimSearchItemForObjectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21FF96A4A201C8AD33F7AC47FF26E18 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A6731A5612333FAE0530D147EC8F74 /* CoreTelephony.framework */; };
-		C74E4BDA88D33F97CAFA2FD2E934449E /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE15319375976194FD58FC43125FE109 /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E1FD9389BCAFA8EF4C86B0C69AB9C9 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DA45017F449501B91C17137CADFCBEE /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5F0384915F4F1795A578BE108E023F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F22CB98731F6F0141FE9AE8321B2FF /* SystemConfiguration.framework */; };
-		E80C182188219F86A8399F95769F1A7F /* TimJpushConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A136B78AD3879BE6C787966EB7A3678 /* TimJpushConfigManager.m */; };
-		E93120A32C87BDDECA79F783F4B5AADF /* XAspect-JpushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273BA8FC146EB91EACC82556BCD6AA21 /* XAspect-JpushAppDelegate.m */; };
-		ECD25EF5ABC1AD928096EB98762C58FC /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = E273500D66F1D08ED4A32C022DC8785A /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFF18240A4EA827D7620D03B454934C0 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA8DF8F10F0027C7892E756C9F873047 /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9E171D52AA34D6E70270139C8F52319 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B5C877807C98348CDF2E2649866A1 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED9E84AA52A74DEAC76F803D05B5D793 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE9D0009909094B77D8AA0F0EB72502 /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F08D17923A8C0B01CEE172861E2C41EA /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 453C9458D183F628507B36EFF2E1E558 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5B6BABA19FBB4F105DC29F284EAF45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968FA9FA0C8EA350A2B78B859B5CD27 /* Foundation.framework */; };
-		FA06CF622233631EFC63471242B48958 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD763EF713961FFF9B0EF0D1CA189E7 /* XAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AA2A9C0B961FB71E53905247D2BEFA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE43EF3D09793EB42A5BD0715DAF90A2;
-			remoteInfo = XAspect;
-		};
 		956E56BD5F73248A49F51B1DEEB5F07E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -57,55 +47,53 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE43EF3D09793EB42A5BD0715DAF90A2;
+			remoteGlobalIDString = DB1B3C7BDEA8348F9BD756E6AF5AC4DA;
 			remoteInfo = XAspect;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5A7A6218FA78CF0D4F60E3833C7638 /* TimCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimCore-dummy.m"; sourceTree = "<group>"; };
-		169CC212D8F2C940B56626E2D463F883 /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
 		1968FA9FA0C8EA350A2B78B859B5CD27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1F0ACC48F422FFA23BA49788F84AA8E1 /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
 		218B3A43F7A13680BF4A806F237F83E5 /* Pods-TimJpushDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimJpushDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		263F5BF43AE01290F38026651283CE71 /* TimJpushConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimJpushConfigManager.h; path = Classes/TimJpush/TimJpushConfigManager.h; sourceTree = "<group>"; };
-		273BA8FC146EB91EACC82556BCD6AA21 /* XAspect-JpushAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XAspect-JpushAppDelegate.m"; path = "Classes/TimJpush/XAspect-JpushAppDelegate.m"; sourceTree = "<group>"; };
+		2A817DE8CDF4924F38541894774FEFBD /* libjcore-ios-1.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.1.1.a"; sourceTree = "<group>"; };
+		2DA45017F449501B91C17137CADFCBEE /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
+		3135360AC881B4AC8109D40F1E140EBE /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
 		34CAB56D4AC860F6559386CD9B9778F7 /* libTimCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTimCore.a; path = libTimCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		34ECFDA9E46D7C4B824B4CA4D6FAC74E /* libPods-TimJpushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TimJpushDemo.a"; path = "libPods-TimJpushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A6731A5612333FAE0530D147EC8F74 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		490F0F2B3B2731083BB9F07CA6C9E407 /* TimCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimCore.xcconfig; sourceTree = "<group>"; };
+		453C9458D183F628507B36EFF2E1E558 /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
 		4B67150161AE03B8A145F862DA4D5246 /* Pods-TimJpushDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimJpushDemo-frameworks.sh"; sourceTree = "<group>"; };
-		4E3F85590765AE48283B807EC104CBD5 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
-		4F50AC2592C3D0B81D179B0B28EEC5A9 /* TimCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimCore-prefix.pch"; sourceTree = "<group>"; };
-		5A1E7CE763C3D3B26A387E918C8265BF /* libjpush-ios-2.2.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libjpush-ios-2.2.0.a"; path = "lib/libjpush-ios-2.2.0.a"; sourceTree = "<group>"; };
+		4CF34AD3BBC5F781D57D00C5E21FEF5F /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
+		5140BB7E29945E0E69DE5DF2E6C7217B /* TimCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimCore-prefix.pch"; sourceTree = "<group>"; };
 		5A2BBB9D395F82256FE7FB721DB2A343 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		5BF602AAC29BE3A227DC9FD07B10C98B /* XAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XAspect-prefix.pch"; sourceTree = "<group>"; };
 		5DD7A42A54DDD66E9D1A59311047FC61 /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXAspect.a; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A136B78AD3879BE6C787966EB7A3678 /* TimJpushConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimJpushConfigManager.m; path = Classes/TimJpush/TimJpushConfigManager.m; sourceTree = "<group>"; };
-		8A4655C755E4CEF30A88F091DD54B844 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
-		8CD763EF713961FFF9B0EF0D1CA189E7 /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
+		6448FE20C296FC2BBFA598C3FC8D6181 /* TimCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimCore-dummy.m"; sourceTree = "<group>"; };
+		6529510F00D51CE886833FE67CE01E6F /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
+		7048BA87E7EEE89DDA9CF7EDCD3AD280 /* libjpush-ios-3.0.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.2.a"; sourceTree = "<group>"; };
+		72C78940E04F8175EE5535874D1870BF /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		770E3CFB1C5A309250822D46ECA5FF0C /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		7DBF5F956DFDBB211EDDC9C5396C1C69 /* TimCoreAppDelegate+CSSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TimCoreAppDelegate+CSSearch.m"; path = "Classes/TimCore/TimCoreAppDelegate+CSSearch.m"; sourceTree = "<group>"; };
+		7DE9D0009909094B77D8AA0F0EB72502 /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
+		8E4FB689CCF3B9A724358D7CA7BB7001 /* TimCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimCore.xcconfig; sourceTree = "<group>"; };
+		8ECF489AAD27F1971A810629F969A31C /* XAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XAspect-prefix.pch"; sourceTree = "<group>"; };
 		92F22CB98731F6F0141FE9AE8321B2FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		9366C28886D62B9AB453F77113382BC2 /* TimCoreAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimCoreAppDelegate.m; path = Classes/TimCore/TimCoreAppDelegate.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94375DC4FCCBDFB40054654237C042BD /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
+		97CF9170359DAB613EB2E8D56331679F /* TimCoreAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimCoreAppDelegate.m; path = Classes/TimCore/TimCoreAppDelegate.m; sourceTree = "<group>"; };
 		9B243F675268A7F7D77F0226B05B5BE2 /* Pods-TimJpushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimJpushDemo.release.xcconfig"; sourceTree = "<group>"; };
-		9F35AA99940A9CE3BB5C3F62BDBB3E8E /* TimJpush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimJpush.h; path = Classes/TimJpush/TimJpush.h; sourceTree = "<group>"; };
+		A32767642F4A206516E66BE84DC1F742 /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
 		A8C03E0B09AE4B48D4548DA44FDC7909 /* Pods-TimJpushDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimJpushDemo-dummy.m"; sourceTree = "<group>"; };
-		AC17D26FCC0E64CA98F124BA3A4BBEB9 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPUSHService.h; path = lib/JPUSHService.h; sourceTree = "<group>"; };
-		AE15319375976194FD58FC43125FE109 /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
-		AFF9E8B760CC8AF8DBBF91E7568C587E /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
-		BB959C273686588AB4D7248D551FF707 /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
+		B1E638DBF6A8DCF0DA3DA38FEA5CD3F8 /* TimCoreAppDelegate+CSSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TimCoreAppDelegate+CSSearch.h"; path = "Classes/TimCore/TimCoreAppDelegate+CSSearch.h"; sourceTree = "<group>"; };
+		B835E29568694B9695BCB683465292F4 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
 		BD3237CA443C541F82FBE6D5D54D682D /* Pods-TimJpushDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimJpushDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA8DF8F10F0027C7892E756C9F873047 /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		C123C3A16F02E75DE0B52B1B4C1BE8B3 /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
 		D09AC0EFA95C8EBF3A270F6B5A6262AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D6E21F71AD759F310A62EFD920C6CA31 /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
+		DB4917339BC56D3CFDE34C943E40952D /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
 		DF2E8E653E60F73525BD8F260C8EDB6F /* Pods-TimJpushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimJpushDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E1FA7334B6D7E3DA80FCC7EDCF14132B /* TimCoreAppDelegate+myJpush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TimCoreAppDelegate+myJpush.m"; path = "Classes/TimJpush/TimCoreAppDelegate+myJpush.m"; sourceTree = "<group>"; };
-		E273500D66F1D08ED4A32C022DC8785A /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
+		E361AB34A7A8F8FF856C20A84C5B57ED /* TimSearchItemForObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimSearchItemForObjectProtocol.h; path = Classes/TimProtocol/TimSearchItemForObjectProtocol.h; sourceTree = "<group>"; };
 		E7FFED7E29558DE5348446AC5481AF55 /* Pods-TimJpushDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimJpushDemo-resources.sh"; sourceTree = "<group>"; };
-		EC1B9CD79E4D3AD095C0847C49AD9ADA /* TimCoreAppDelegate+myJpush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TimCoreAppDelegate+myJpush.h"; path = "Classes/TimJpush/TimCoreAppDelegate+myJpush.h"; sourceTree = "<group>"; };
-		EE23AD719C213DFB0C02395913A7BBA8 /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
-		F817C06F00E0FFCD0610592E6CD93C02 /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
-		FF137EA4837D5A37846F99939EE44F1C /* TimCoreAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimCoreAppDelegate.h; path = Classes/TimCore/TimCoreAppDelegate.h; sourceTree = "<group>"; };
+		ECF5D4516F49D3B486F9F7C69CD466CB /* TimCoreAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimCoreAppDelegate.h; path = Classes/TimCore/TimCoreAppDelegate.h; sourceTree = "<group>"; };
+		FA6B5C877807C98348CDF2E2649866A1 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +109,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E8C435A2FC6DC18552B0C867530D9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F625FB21321A41B8BE6D004FE8019B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F7AB002831B7EB457F541F780E37CAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,38 +125,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6388ECD40B51CAA4A90CD78DCA8D7D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B4717E22AAD91D5BC04030A320E5CAF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AA3B45719A4F11118966A6829AFD593 /* XAspect */ = {
+		03FBCF521F643C59F5605DF7ABCAB308 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				EE23AD719C213DFB0C02395913A7BBA8 /* XAspect.h */,
-				D38253C510F9E2F89CD74CE6610E5B2B /* Core */,
-				B7CC49E59525165A2385D66C307AF755 /* Macros */,
-				38C795612AB5C2D64FA5DB5AD1E56F49 /* Support Files */,
+				FA6B5C877807C98348CDF2E2649866A1 /* XADebugMacros.h */,
+				7DE9D0009909094B77D8AA0F0EB72502 /* XAExtObjcMetamacros.h */,
+				C123C3A16F02E75DE0B52B1B4C1BE8B3 /* XAFoundation.h */,
+				D6E21F71AD759F310A62EFD920C6CA31 /* XAObjcMetaprogramming.h */,
 			);
-			name = XAspect;
-			path = XAspect;
+			name = Macros;
 			sourceTree = "<group>";
 		};
-		1E6F3FB61D6C5BE02DEE714A142B6D3A /* TimCore */ = {
+		063A83F8594C4B6E3982C3D5A6E81237 /* TimCore */ = {
 			isa = PBXGroup;
 			children = (
-				24A212779FBB0A37E9EEDB4AB15FA94F /* Support Files */,
-				81429D6019E73D32F986DB55643C1D3F /* TimCore */,
-				BADDF6EADEF9A7BFC34B405463C9EB97 /* TimJpush */,
+				12223751C5F009C25028A9A297C2E297 /* Support Files */,
+				BFA7936B34AF26D73CD5540AB5129C03 /* TimCore */,
+				9E408B829E772AA5DBDF4269E0A18070 /* TimProtocol */,
 			);
 			name = TimCore;
 			path = TimCore;
+			sourceTree = "<group>";
+		};
+		12223751C5F009C25028A9A297C2E297 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4FB689CCF3B9A724358D7CA7BB7001 /* TimCore.xcconfig */,
+				6448FE20C296FC2BBFA598C3FC8D6181 /* TimCore-dummy.m */,
+				5140BB7E29945E0E69DE5DF2E6C7217B /* TimCore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TimCore";
 			sourceTree = "<group>";
 		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
@@ -169,28 +167,6 @@
 				E17F5B5296E2844E9148136AB7A17B9C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		24A212779FBB0A37E9EEDB4AB15FA94F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				490F0F2B3B2731083BB9F07CA6C9E407 /* TimCore.xcconfig */,
-				0A5A7A6218FA78CF0D4F60E3833C7638 /* TimCore-dummy.m */,
-				4F50AC2592C3D0B81D179B0B28EEC5A9 /* TimCore-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TimCore";
-			sourceTree = "<group>";
-		};
-		38C795612AB5C2D64FA5DB5AD1E56F49 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB959C273686588AB4D7248D551FF707 /* XAspect.xcconfig */,
-				8A4655C755E4CEF30A88F091DD54B844 /* XAspect-dummy.m */,
-				5BF602AAC29BE3A227DC9FD07B10C98B /* XAspect-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/XAspect";
 			sourceTree = "<group>";
 		};
 		4B780DACD5A77004AC88CA70A6BD651F /* Products */ = {
@@ -203,14 +179,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6380C3020AECCD2D1383D5A39CADFFA3 /* Pods */ = {
+		61E8D5FE03139AB4A35D724E77A6BB48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A410D350E20B4DF69319147893DFF62 /* JPush */,
-				1E6F3FB61D6C5BE02DEE714A142B6D3A /* TimCore */,
-				1AA3B45719A4F11118966A6829AFD593 /* XAspect */,
+				6529510F00D51CE886833FE67CE01E6F /* XAspect.xcconfig */,
+				B835E29568694B9695BCB683465292F4 /* XAspect-dummy.m */,
+				8ECF489AAD27F1971A810629F969A31C /* XAspect-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/XAspect";
+			sourceTree = "<group>";
+		};
+		651D7281CDBE99BBB14D69399A06C235 /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				86C52EE36F828388AAF86D68193B4D5A /* Frameworks */,
+			);
+			name = JCore;
+			path = JCore;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -218,19 +204,29 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				6380C3020AECCD2D1383D5A39CADFFA3 /* Pods */,
+				8363C620B4CCD9DF3D2EDD78A71A13DD /* Pods */,
 				4B780DACD5A77004AC88CA70A6BD651F /* Products */,
 				B7B6C0CB7E038D5BDE6D3F62A8431FEB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81429D6019E73D32F986DB55643C1D3F /* TimCore */ = {
+		8363C620B4CCD9DF3D2EDD78A71A13DD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FF137EA4837D5A37846F99939EE44F1C /* TimCoreAppDelegate.h */,
-				9366C28886D62B9AB453F77113382BC2 /* TimCoreAppDelegate.m */,
+				651D7281CDBE99BBB14D69399A06C235 /* JCore */,
+				E425B3CE28AECF8D70F1AEEC426271AF /* JPush */,
+				063A83F8594C4B6E3982C3D5A6E81237 /* TimCore */,
+				F9DE2ECA77583B789DBDEB8413B1C69D /* XAspect */,
 			);
-			name = TimCore;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86C52EE36F828388AAF86D68193B4D5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A817DE8CDF4924F38541894774FEFBD /* libjcore-ios-1.1.1.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9A19726EDBC24550181831F2E98D7B28 /* Pods-TimJpushDemo */ = {
@@ -248,14 +244,20 @@
 			path = "Target Support Files/Pods-TimJpushDemo";
 			sourceTree = "<group>";
 		};
-		9A410D350E20B4DF69319147893DFF62 /* JPush */ = {
+		9E408B829E772AA5DBDF4269E0A18070 /* TimProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				AC17D26FCC0E64CA98F124BA3A4BBEB9 /* JPUSHService.h */,
-				E37BEED930B09CBA781DF03B353BE367 /* Frameworks */,
+				E361AB34A7A8F8FF856C20A84C5B57ED /* TimSearchItemForObjectProtocol.h */,
 			);
-			name = JPush;
-			path = JPush;
+			name = TimProtocol;
+			sourceTree = "<group>";
+		};
+		A8D98F4AAC811903C77A8ED9F2A72CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7048BA87E7EEE89DDA9CF7EDCD3AD280 /* libjpush-ios-3.0.2.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B7B6C0CB7E038D5BDE6D3F62A8431FEB /* Targets Support Files */ = {
@@ -266,41 +268,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B7CC49E59525165A2385D66C307AF755 /* Macros */ = {
+		BFA7936B34AF26D73CD5540AB5129C03 /* TimCore */ = {
 			isa = PBXGroup;
 			children = (
-				4E3F85590765AE48283B807EC104CBD5 /* XADebugMacros.h */,
-				AFF9E8B760CC8AF8DBBF91E7568C587E /* XAExtObjcMetamacros.h */,
-				8CD763EF713961FFF9B0EF0D1CA189E7 /* XAFoundation.h */,
-				E273500D66F1D08ED4A32C022DC8785A /* XAObjcMetaprogramming.h */,
+				ECF5D4516F49D3B486F9F7C69CD466CB /* TimCoreAppDelegate.h */,
+				97CF9170359DAB613EB2E8D56331679F /* TimCoreAppDelegate.m */,
+				B1E638DBF6A8DCF0DA3DA38FEA5CD3F8 /* TimCoreAppDelegate+CSSearch.h */,
+				7DBF5F956DFDBB211EDDC9C5396C1C69 /* TimCoreAppDelegate+CSSearch.m */,
 			);
-			name = Macros;
-			sourceTree = "<group>";
-		};
-		BADDF6EADEF9A7BFC34B405463C9EB97 /* TimJpush */ = {
-			isa = PBXGroup;
-			children = (
-				EC1B9CD79E4D3AD095C0847C49AD9ADA /* TimCoreAppDelegate+myJpush.h */,
-				E1FA7334B6D7E3DA80FCC7EDCF14132B /* TimCoreAppDelegate+myJpush.m */,
-				9F35AA99940A9CE3BB5C3F62BDBB3E8E /* TimJpush.h */,
-				263F5BF43AE01290F38026651283CE71 /* TimJpushConfigManager.h */,
-				6A136B78AD3879BE6C787966EB7A3678 /* TimJpushConfigManager.m */,
-				273BA8FC146EB91EACC82556BCD6AA21 /* XAspect-JpushAppDelegate.m */,
-			);
-			name = TimJpush;
-			sourceTree = "<group>";
-		};
-		D38253C510F9E2F89CD74CE6610E5B2B /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				169CC212D8F2C940B56626E2D463F883 /* XACExtensions.c */,
-				AE15319375976194FD58FC43125FE109 /* XACExtensions.h */,
-				94375DC4FCCBDFB40054654237C042BD /* XACrystallization.cpp */,
-				F817C06F00E0FFCD0610592E6CD93C02 /* XACrystallization.h */,
-				CA8DF8F10F0027C7892E756C9F873047 /* XAWeaveHandler.cpp */,
-				1F0ACC48F422FFA23BA49788F84AA8E1 /* XAWeaveHandler.h */,
-			);
-			name = Core;
+			name = TimCore;
 			sourceTree = "<group>";
 		};
 		E17F5B5296E2844E9148136AB7A17B9C /* iOS */ = {
@@ -315,40 +291,66 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E37BEED930B09CBA781DF03B353BE367 /* Frameworks */ = {
+		E1847283363179EC4C1E159C0F4F29D8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5A1E7CE763C3D3B26A387E918C8265BF /* libjpush-ios-2.2.0.a */,
+				2DA45017F449501B91C17137CADFCBEE /* XACExtensions.c */,
+				DB4917339BC56D3CFDE34C943E40952D /* XACExtensions.h */,
+				A32767642F4A206516E66BE84DC1F742 /* XACrystallization.cpp */,
+				453C9458D183F628507B36EFF2E1E558 /* XACrystallization.h */,
+				770E3CFB1C5A309250822D46ECA5FF0C /* XAWeaveHandler.cpp */,
+				4CF34AD3BBC5F781D57D00C5E21FEF5F /* XAWeaveHandler.h */,
 			);
-			name = Frameworks;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E425B3CE28AECF8D70F1AEEC426271AF /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				72C78940E04F8175EE5535874D1870BF /* JPUSHService.h */,
+				A8D98F4AAC811903C77A8ED9F2A72CCD /* Frameworks */,
+			);
+			name = JPush;
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		F9DE2ECA77583B789DBDEB8413B1C69D /* XAspect */ = {
+			isa = PBXGroup;
+			children = (
+				3135360AC881B4AC8109D40F1E140EBE /* XAspect.h */,
+				E1847283363179EC4C1E159C0F4F29D8 /* Core */,
+				03FBCF521F643C59F5605DF7ABCAB308 /* Macros */,
+				61E8D5FE03139AB4A35D724E77A6BB48 /* Support Files */,
+			);
+			name = XAspect;
+			path = XAspect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DA35EE9D78C6136BEDE53A14AEBE63B /* Headers */ = {
+		0DCEA8367D97A56C7552377991A6D522 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AD54363BECA813BBB32137A9DD2FF1 /* TimCoreAppDelegate+myJpush.h in Headers */,
-				75E9A6CF321524779F97230731306E50 /* TimCoreAppDelegate.h in Headers */,
-				12CE2C7C0BF70D1BF8AF9ADC209DF29F /* TimJpush.h in Headers */,
-				47ADCB244FB6C48E0E198E3D5B7E3051 /* TimJpushConfigManager.h in Headers */,
+				420A8DC4D6277179F9B7A5AD55836082 /* XACExtensions.h in Headers */,
+				F08D17923A8C0B01CEE172861E2C41EA /* XACrystallization.h in Headers */,
+				D9E171D52AA34D6E70270139C8F52319 /* XADebugMacros.h in Headers */,
+				ED9E84AA52A74DEAC76F803D05B5D793 /* XAExtObjcMetamacros.h in Headers */,
+				650618605BA53F57535B899ED1F3E3B5 /* XAFoundation.h in Headers */,
+				9D35495ED7802BA58B024D0286AF55AD /* XAObjcMetaprogramming.h in Headers */,
+				05BB708957856AF5860DD0CADAB69699 /* XAspect.h in Headers */,
+				22148B21ED90C93CCFF8C7599C327382 /* XAWeaveHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C2789452D43C49667DAFB7CBF44DC04 /* Headers */ = {
+		CD80D68F6156885CE2FF4400CD8AFE60 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74E4BDA88D33F97CAFA2FD2E934449E /* XACExtensions.h in Headers */,
-				79304D56D8B4452A9365651C4CFA2806 /* XACrystallization.h in Headers */,
-				74EE84F484B3E1506E635A39BEFE8215 /* XADebugMacros.h in Headers */,
-				6FFF1F2779410B32C1F618053C17F2CC /* XAExtObjcMetamacros.h in Headers */,
-				FA06CF622233631EFC63471242B48958 /* XAFoundation.h in Headers */,
-				ECD25EF5ABC1AD928096EB98762C58FC /* XAObjcMetaprogramming.h in Headers */,
-				369AE245E821D8792290DE6768304DF4 /* XAspect.h in Headers */,
-				3EC45DC299989FCDED60747626B28884 /* XAWeaveHandler.h in Headers */,
+				7B5AA3494A8D0F48057A5CF346783872 /* TimCoreAppDelegate+CSSearch.h in Headers */,
+				4FC46927D8F1E8A36D15378BC5A0BEE3 /* TimCoreAppDelegate.h in Headers */,
+				B2636079DF983A86ABA04BC51D05CB9C /* TimSearchItemForObjectProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,14 +361,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBAE07EA6F1FDA93FA69A8DF04877BDF /* Build configuration list for PBXNativeTarget "TimCore" */;
 			buildPhases = (
-				C95EC1160CCDFE02F14653783F048376 /* Sources */,
+				29CFE9857E97F55815AC4E778639345C /* Sources */,
 				0344F3E8A5EDAE69AC4AAE0BB0A15503 /* Frameworks */,
-				2DA35EE9D78C6136BEDE53A14AEBE63B /* Headers */,
+				CD80D68F6156885CE2FF4400CD8AFE60 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6ED102C11EB165CB1FD598F36E59D413 /* PBXTargetDependency */,
 			);
 			name = TimCore;
 			productName = TimCore;
@@ -391,13 +392,13 @@
 			productReference = 34ECFDA9E46D7C4B824B4CA4D6FAC74E /* libPods-TimJpushDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BE43EF3D09793EB42A5BD0715DAF90A2 /* XAspect */ = {
+		DB1B3C7BDEA8348F9BD756E6AF5AC4DA /* XAspect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82619398B2B8229ACB78FE34D8C5D557 /* Build configuration list for PBXNativeTarget "XAspect" */;
+			buildConfigurationList = B9CE101A3AAD806F7DF85062509BA3DB /* Build configuration list for PBXNativeTarget "XAspect" */;
 			buildPhases = (
-				87ED3C76506352C6BFCB699C178ADB0D /* Sources */,
-				CA6388ECD40B51CAA4A90CD78DCA8D7D /* Frameworks */,
-				9C2789452D43C49667DAFB7CBF44DC04 /* Headers */,
+				C02B495A0713F782969FA8FB1460E867 /* Sources */,
+				2E8C435A2FC6DC18552B0C867530D9CE /* Frameworks */,
+				0DCEA8367D97A56C7552377991A6D522 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -431,20 +432,19 @@
 			targets = (
 				B920DDF0AD6E33B840FED0B997128245 /* Pods-TimJpushDemo */,
 				218B04482CABAEC2E1CA85A1C7EF4802 /* TimCore */,
-				BE43EF3D09793EB42A5BD0715DAF90A2 /* XAspect */,
+				DB1B3C7BDEA8348F9BD756E6AF5AC4DA /* XAspect */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		87ED3C76506352C6BFCB699C178ADB0D /* Sources */ = {
+		29CFE9857E97F55815AC4E778639345C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E781B9FA288D5FDDBB2A9392FA2577 /* XACExtensions.c in Sources */,
-				6C8AA1A7C33AFF99FFBB0B97A0509973 /* XACrystallization.cpp in Sources */,
-				597F633EBDFC736B87C9771E7C74FBF5 /* XAspect-dummy.m in Sources */,
-				EFF18240A4EA827D7620D03B454934C0 /* XAWeaveHandler.cpp in Sources */,
+				21D82C118372BB77835142B621154196 /* TimCore-dummy.m in Sources */,
+				9AF8C0F191AEE721F56D75BBEC247731 /* TimCoreAppDelegate+CSSearch.m in Sources */,
+				A4EB16DB1519D57B354D122855E81A42 /* TimCoreAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,15 +456,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C95EC1160CCDFE02F14653783F048376 /* Sources */ = {
+		C02B495A0713F782969FA8FB1460E867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA0CE2F7A60ECCC99A694273016AE2E /* TimCore-dummy.m in Sources */,
-				9A993DF7683FF151075CA5A5891AA05E /* TimCoreAppDelegate+myJpush.m in Sources */,
-				85B3C9BA425DFE0BF9C242879688A6E5 /* TimCoreAppDelegate.m in Sources */,
-				E80C182188219F86A8399F95769F1A7F /* TimJpushConfigManager.m in Sources */,
-				E93120A32C87BDDECA79F783F4B5AADF /* XAspect-JpushAppDelegate.m in Sources */,
+				C5E1FD9389BCAFA8EF4C86B0C69AB9C9 /* XACExtensions.c in Sources */,
+				144FEC5A37D683B8E17D1ED7B841E70A /* XACrystallization.cpp in Sources */,
+				5035A361FF1D62AF1822CC9EE400975C /* XAspect-dummy.m in Sources */,
+				A9A6A50CAA5897876F06FD4395CBFA84 /* XAWeaveHandler.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +473,7 @@
 		328FE7B3E909AEED66FC8A94B91F3ADA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XAspect;
-			target = BE43EF3D09793EB42A5BD0715DAF90A2 /* XAspect */;
+			target = DB1B3C7BDEA8348F9BD756E6AF5AC4DA /* XAspect */;
 			targetProxy = CD3ADBC2CB60E3F218492F0F5641C69A /* PBXContainerItemProxy */;
 		};
 		4E41D54E2485FC29117A1786FA44B44B /* PBXTargetDependency */ = {
@@ -482,12 +481,6 @@
 			name = TimCore;
 			target = 218B04482CABAEC2E1CA85A1C7EF4802 /* TimCore */;
 			targetProxy = 956E56BD5F73248A49F51B1DEEB5F07E /* PBXContainerItemProxy */;
-		};
-		6ED102C11EB165CB1FD598F36E59D413 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XAspect;
-			target = BE43EF3D09793EB42A5BD0715DAF90A2 /* XAspect */;
-			targetProxy = 2AA2A9C0B961FB71E53905247D2BEFA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,7 +531,7 @@
 		};
 		11DD3247FE885188EEC452B909E5026A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 490F0F2B3B2731083BB9F07CA6C9E407 /* TimCore.xcconfig */;
+			baseConfigurationReference = 8E4FB689CCF3B9A724358D7CA7BB7001 /* TimCore.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -561,7 +554,7 @@
 		};
 		30B1535041661BD951EE20EC4F84E36F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 490F0F2B3B2731083BB9F07CA6C9E407 /* TimCore.xcconfig */;
+			baseConfigurationReference = 8E4FB689CCF3B9A724358D7CA7BB7001 /* TimCore.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -581,6 +574,29 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		34BA44D205C8F24F88C2A9406BEBD75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6529510F00D51CE886833FE67CE01E6F /* XAspect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -622,29 +638,6 @@
 			};
 			name = Release;
 		};
-		68AE7C4568C0D2C456F95688508AF1CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB959C273686588AB4D7248D551FF707 /* XAspect.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		8E1AFA9F93E21C1B3ADD2128160CF6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF2E8E653E60F73525BD8F260C8EDB6F /* Pods-TimJpushDemo.debug.xcconfig */;
@@ -667,6 +660,29 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		9043D79F7D6FB64468E89284AD1BDEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6529510F00D51CE886833FE67CE01E6F /* XAspect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		CF98D7888D742DE81A477874086C04F2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -691,29 +707,6 @@
 			};
 			name = Release;
 		};
-		E51FC57563DF268CA1212B430A37AE0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB959C273686588AB4D7248D551FF707 /* XAspect.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -726,11 +719,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82619398B2B8229ACB78FE34D8C5D557 /* Build configuration list for PBXNativeTarget "XAspect" */ = {
+		B9CE101A3AAD806F7DF85062509BA3DB /* Build configuration list for PBXNativeTarget "XAspect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68AE7C4568C0D2C456F95688508AF1CD /* Debug */,
-				E51FC57563DF268CA1212B430A37AE0D /* Release */,
+				34BA44D205C8F24F88C2A9406BEBD75D /* Debug */,
+				9043D79F7D6FB64468E89284AD1BDEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

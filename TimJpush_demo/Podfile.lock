@@ -1,10 +1,10 @@
 PODS:
-  - JPush (2.2.0)
-  - TimCore/TimCore (1.0.5)
-  - TimCore/TimJpush (1.0.5):
-    - JPush
-    - TimCore/TimCore
-    - XAspect
+  - JCore (1.1.1)
+  - JPush (3.0.2):
+    - JCore (~> 1.1.1)
+  - TimCore/TimCore (1.2.12):
+    - TimCore/TimProtocol
+  - TimCore/TimProtocol (1.2.12)
   - XAspect (1.0.5):
     - XAspect/Core (= 1.0.5)
     - XAspect/Macros (= 1.0.5)
@@ -13,13 +13,16 @@ PODS:
   - XAspect/Macros (1.0.5)
 
 DEPENDENCIES:
-  - TimCore/TimJpush
+  - JPush (~> 3.0.2)
+  - TimCore/TimCore
+  - XAspect
 
 SPEC CHECKSUMS:
-  JPush: 14bd5ff248fbef9c2179c82a9d1120e573b1c66a
-  TimCore: a5f0edc9c86047ffa0866415483d02bd3093ad83
+  JCore: 2210a789c8efb7dc2a46b1c24d2209b995b18ad2
+  JPush: 01a693fafe51b93eafc2e368bbc7a7cc07e12ce4
+  TimCore: 3d56a23901c25ceabd2d4d2fdedf362d68af3b7f
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
 
-PODFILE CHECKSUM: af508ae3946f75ad8d654b306a42d4860161d4f1
+PODFILE CHECKSUM: 207fb022a7c34a6d4ee048cc7eb43ba7391d1df8
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.1.1

@@ -1,0 +1,1 @@
+../../../TimCore/Classes/TimCore/TimCoreAppDelegate+CSSearch.h

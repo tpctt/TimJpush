@@ -1,1 +1,0 @@
-../../../TimCore/Classes/TimJpush/TimCoreAppDelegate+myJpush.h

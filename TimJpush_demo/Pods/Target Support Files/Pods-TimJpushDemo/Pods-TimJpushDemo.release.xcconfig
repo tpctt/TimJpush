@@ -1,8 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JPush" "${PODS_ROOT}/Headers/Public/TimCore" "${PODS_ROOT}/Headers/Public/XAspect"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/TimCore" "$PODS_CONFIGURATION_BUILD_DIR/XAspect" $(inherited) "${PODS_ROOT}/JPush/lib"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JPush" -isystem "${PODS_ROOT}/Headers/Public/TimCore" -isystem "${PODS_ROOT}/Headers/Public/XAspect"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"TimCore" -l"XAspect" -l"c++" -l"icucore" -l"jpush-ios-2.2.0" -l"resolv" -l"stdc++" -l"z" -l"z.1.2.5" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "JavaScriptCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JCore" "${PODS_ROOT}/Headers/Public/JPush" "${PODS_ROOT}/Headers/Public/TimCore" "${PODS_ROOT}/Headers/Public/XAspect"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/TimCore" "$PODS_CONFIGURATION_BUILD_DIR/XAspect" $(inherited) "${PODS_ROOT}/JCore" $(inherited) "${PODS_ROOT}/JPush"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JCore" -isystem "${PODS_ROOT}/Headers/Public/JPush" -isystem "${PODS_ROOT}/Headers/Public/TimCore" -isystem "${PODS_ROOT}/Headers/Public/XAspect"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"TimCore" -l"XAspect" -l"c++" -l"icucore" -l"jcore-ios-1.1.1" -l"jpush-ios-3.0.2" -l"resolv" -l"stdc++" -l"z" -l"z.1.2.5" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "JavaScriptCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "UserNotifications"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
