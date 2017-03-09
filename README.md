@@ -4,11 +4,12 @@
 <li>借鉴于 jiaAppDelegate 的,[jiaAppDelegate]</li>
 <li>借推送测试工具 <https://github.com/KnuffApp/Knuff></li>
 
-````ruby
+````
 source 'https://github.com/tpctt/Specs.git'
 pod 'TimJpush'
 
 ````
+
 ````objectivec
 +(void)load
 {
